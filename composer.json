@@ -1,8 +1,8 @@
 {
-    "name": "dorbitt/lib",
+    "name": "ummulib",
     "type": "library",
-    "description": "Dorbitt is a full-featured api creation and transfer class for PHP",
-    "website": "https://dorbitt.com/",
+    "description": "OPENERPID is a full-featured api creation and transfer class for PHP",
+    "website": "https://openerp.id/",
     "authors": [
         {
             "name": "M. Ali Imron",
@@ -17,7 +17,7 @@
     ],
     "funding": [
         {
-            "url": "https://github.com/lienux",
+            "url": "https://github.com/openerpid/ummulib",
             "type": "github"
         }
     ],
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dorbitt\\": "src/"
+            "Ummulib\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dorbitt\\Test\\": "test/"
+            "Ummulib\\Test\\": "test/"
         }
     }
 }
