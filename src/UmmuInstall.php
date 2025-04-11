@@ -124,15 +124,16 @@ class UmmuInstall
     {
         if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
             symlink(WRITEPATH."uploads", FCPATH."uploads");
-            symlink(ROOTPATH."vendor/dorbitt/lib/src/Gasset", FCPATH."vendor/ummulib");
-            symlink(ROOTPATH."vendor/dorbitt/lib/src/Gasset", FCPATH."Gasset");
-            symlink(ROOTPATH."vendor/dorbitt/lib/src/Gviews", APPPATH."Gviews");
-            symlink(ROOTPATH."vendor/dorbitt/lib/src/Controllers/MyGallery", APPPATH."Controllers/MyGallery");
+            symlink(ROOTPATH."vendor/ummu/lib/src/Gasset", FCPATH."vendor/ummulib");
+            symlink(ROOTPATH."vendor/ummu/lib/src/Gasset", FCPATH."Gasset");
+            symlink(ROOTPATH."vendor/ummu/lib/src/Gviews", APPPATH."Gviews");
+            symlink(ROOTPATH."vendor/ummu/lib/src/Controllers/MyGallery", APPPATH."Controllers/MyGallery");
         } else {
             exec("ln -s ".WRITEPATH."uploads"." ".FCPATH);
-            exec("ln -s ".ROOTPATH."vendor/dorbitt/lib/src/Gasset"." ".FCPATH."vendor/ummulib");
-            exec("ln -s ".ROOTPATH."vendor/dorbitt/lib/src/Gasset"." ".FCPATH."Gasset");
-            exec("ln -s ".ROOTPATH."vendor/dorbitt/lib/src/Gviews"." ".APPPATH."Gviews");
-            exec("ln -s ".ROOTPATH."vendor/dorbitt/lib/src/Controllers/MyGallery"." ".APPPATH."Controllers/MyGallery");
+            exec("ln -s ".ROOTPATH."vendor/ummu/lib/src/Gasset"." ".FCPATH."vendor/ummulib");
+            exec("ln -s ".ROOTPATH."vendor/ummu/lib/src/Gasset"." ".FCPATH."Gasset");
+            exec("ln -s ".ROOTPATH."vendor/ummu/lib/src/Gviews"." ".APPPATH."Gviews");
+            exec("ln -s ".ROOTPATH."vendor/ummu/lib/src/Controllers/MyGallery"." ".APPPATH."Controllers/MyGallery");
         }
     }
+}
