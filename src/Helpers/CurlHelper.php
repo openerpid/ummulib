@@ -1,6 +1,6 @@
 <?php
 
-namespace Dorbitt\Helpers;
+namespace Ummulib\Helpers;
 
 /**
 * =============================================

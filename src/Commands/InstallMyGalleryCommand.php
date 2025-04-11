@@ -4,7 +4,7 @@ namespace App\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
-use Dorbitt\UmmuInstall;
+use Ummulib\UmmuInstall;
 
 class InstallMyGalleryCommand extends BaseCommand
 {

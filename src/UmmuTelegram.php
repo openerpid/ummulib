@@ -1,17 +1,17 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
 * Author: Ummu
 * Website: https://ummukhairiyahyusna.com/
-* App: DORBITT LIB
+* App: Ummulib LIB
 * Description: 
 * =============================================
 */
 
-use Dorbitt\Curl;
+use Ummulib\Curl;
 
 class UmmuTelegram
 {
@@ -37,8 +37,8 @@ class UmmuTelegram
                         "url": "https://core.telegram.org"
                     },
                     {
-                        "text": "DORBITT", 
-                        "url": "https://dorbitt.com"
+                        "text": "openerp", 
+                        "url": "https://openerp.id"
                     }
                 ]
             ]

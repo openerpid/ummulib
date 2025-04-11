@@ -1,18 +1,18 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
 * Author: Ummu
 * Website: https://ummukhairiyahyusna.com/
-* App: DORBITT LIB
+* App: Ummulib LIB
 * Description: 
 * =============================================
 */
 
 // use CodeIgniter\HTTP\IncomingRequest;
-use Dorbitt\Helpers\CurlHelper;
+use Ummulib\Helpers\CurlHelper;
 
 class UmmuLogs
 {

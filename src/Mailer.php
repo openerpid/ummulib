@@ -1,6 +1,6 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
@@ -11,7 +11,7 @@ namespace Dorbitt;
 * =============================================
 */
 
-use Dorbitt\Curl;
+use Ummulib\Curl;
 
 class Mailer
 {

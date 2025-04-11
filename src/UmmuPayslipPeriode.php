@@ -1,18 +1,18 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
 * Author: Ummu
 * Website: https://ummukhairiyahyusna.com/
-* App: DORBITT LIB
+* App: Ummulib LIB
 * Description: 
 * =============================================
 */
 
-use Dorbitt\Curl;
-use Dorbitt\GlobalHelper;
+use Ummulib\Curl;
+use Ummulib\GlobalHelper;
 
 class UmmuPayslipPeriode
 {

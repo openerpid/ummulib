@@ -1,17 +1,17 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
 * Author: Ummu
 * Website: https://ummukhairiyahyusna.com/
-* App: DORBITT LIB
+* App: Ummulib LIB
 * Description: 
 * =============================================
 */
 
-use Dorbitt\Curl;
+use Ummulib\Curl;
 
 class UmmuMahasiswa
 {

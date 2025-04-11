@@ -4,8 +4,8 @@ namespace App\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
-use Dorbitt\UmmuHelper;
-use Dorbitt\UmmuInstall;
+use Ummulib\UmmuHelper;
+use Ummulib\UmmuInstall;
 
 class DorbittInstallCommand extends BaseCommand
 {
@@ -79,7 +79,7 @@ class DorbittInstallCommand extends BaseCommand
             exec("rm -rf ". $mygallery_path);
         }
 
-        exec("sudo ln -s ".ROOTPATH."vendor/dorbitt/lib/src/Commands/InstallMyGalleryCommand.php". " " .$mygallery_path);
+        exec("sudo ln -s ".ROOTPATH."vendor/ummu/lib/src/Commands/InstallMyGalleryCommand.php". " " .$mygallery_path);
 
         // if ($mode == 'dev') {
         //     exec("ln -s ".WRITEPATH."uploads"." ".FCPATH);

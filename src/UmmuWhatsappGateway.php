@@ -1,19 +1,19 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
 * =============================================
 * Author: Ummu
 * Website: https://ummukhairiyahyusna.com/
-* App: DORBITT LIB
+* App: Ummulib LIB
 * Description: 
 * =============================================
 */
 
-use Dorbitt\Helpers\CurlHelper;
-use Dorbitt\Helpers\UmmuHelper;
-use Dorbitt\Helpers\GlobalHelper;
+use Ummulib\Helpers\CurlHelper;
+use Ummulib\Helpers\UmmuHelper;
+use Ummulib\Helpers\GlobalHelper;
 
 class UmmuWhatsappGateway
 {

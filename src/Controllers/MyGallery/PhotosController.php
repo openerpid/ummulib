@@ -4,9 +4,9 @@ namespace App\Controllers\MyGallery;
 
 use App\Controllers\BaseController;
 use CodeIgniter\RESTful\ResourceController;
-use Dorbitt\UmmuPhotos;
-use Dorbitt\GviewsHelper;
-use Dorbitt\UmmuUpload;
+use Ummulib\UmmuPhotos;
+use Ummulib\GviewsHelper;
+use Ummulib\UmmuUpload;
 
 class PhotosController extends ResourceController
 {

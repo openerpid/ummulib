@@ -1,12 +1,12 @@
 <?php
 
-namespace Dorbitt;
+namespace Ummulib;
 
 /**
  * =============================================
  * Author: Ummu
  * Website: https://ummukhairiyahyusna.com/
- * App: DORBITT LIB
+ * App: Ummulib LIB
  * Description: 
  * =============================================
  */
@@ -575,8 +575,8 @@ class UmmuHelper
             exec("rm -rf " . FCPATH . "uploads");
         }
 
-        // if (is_link(FCPATH."vendor/dorbitt-lib")) {
-        //     exec("rm -rf ".FCPATH."vendor/dorbitt-lib");
+        // if (is_link(FCPATH."vendor/Ummulib-lib")) {
+        //     exec("rm -rf ".FCPATH."vendor/Ummulib-lib");
         // }
 
         if (is_link(FCPATH . "Gasset")) {
@@ -589,14 +589,14 @@ class UmmuHelper
 
         if ($mode == 'dev') {
             exec("ln -s " . WRITEPATH . "uploads" . " " . FCPATH);
-            exec("ln -s /var/www/html/dorbitt/dorbitt_lib/src/Gasset" . " " . FCPATH . "vendor/dorbitt-lib");
-            exec("ln -s /var/www/html/dorbitt/dorbitt_lib/src/Gasset" . " " . FCPATH . "Gasset");
-            exec("ln -s /var/www/html/dorbitt/dorbitt_lib/src/Gviews" . " " . APPPATH . "Gviews");
+            exec("ln -s /var/www/html/Ummulib/Ummulib_lib/src/Gasset" . " " . FCPATH . "vendor/Ummulib-lib");
+            exec("ln -s /var/www/html/Ummulib/Ummulib_lib/src/Gasset" . " " . FCPATH . "Gasset");
+            exec("ln -s /var/www/html/Ummulib/Ummulib_lib/src/Gviews" . " " . APPPATH . "Gviews");
         } else {
             exec("ln -s " . WRITEPATH . "uploads" . " " . FCPATH);
-            exec("sudo ln -s " . ROOTPATH . "vendor/dorbitt/lib/src/Gasset" . " " . FCPATH . "vendor/dorbitt-lib");
-            exec("sudo ln -s " . ROOTPATH . "vendor/dorbitt/lib/src/Gasset" . " " . FCPATH . "Gasset");
-            exec("sudo ln -s " . ROOTPATH . "vendor/dorbitt/lib/src/Gviews" . " " . APPPATH . "Gviews");
+            exec("sudo ln -s " . ROOTPATH . "vendor/Ummulib/lib/src/Gasset" . " " . FCPATH . "vendor/Ummulib-lib");
+            exec("sudo ln -s " . ROOTPATH . "vendor/Ummulib/lib/src/Gasset" . " " . FCPATH . "Gasset");
+            exec("sudo ln -s " . ROOTPATH . "vendor/Ummulib/lib/src/Gviews" . " " . APPPATH . "Gviews");
         }
     }
 
@@ -632,8 +632,8 @@ class UmmuHelper
 
     public function crud_from_modules($modules, $nay)
     {
-        if ($modules == 'dorbitt_modules') {
-            $modules = session()->get('dorbitt_modules');
+        if ($modules == 'Ummulib_modules') {
+            $modules = session()->get('Ummulib_modules');
         }
         else{
             $modules = [];
@@ -654,8 +654,8 @@ class UmmuHelper
 
     public function crud_from_modules_name($modules, $nay)
     {
-        if ($modules == 'dorbitt_modules') {
-            $modules = session()->get('dorbitt_modules');
+        if ($modules == 'Ummulib_modules') {
+            $modules = session()->get('Ummulib_modules');
         }
         else{
             $modules = [];

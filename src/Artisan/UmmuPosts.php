@@ -1,6 +1,6 @@
 <?php
 
-namespace Dorbitt\Artisan;
+namespace Ummulib\Artisan;
 
 /**
 * =============================================
@@ -11,7 +11,7 @@ namespace Dorbitt\Artisan;
 * =============================================
 */
 
-use Dorbitt\Artisan\Curl;
+use Ummulib\Artisan\Curl;
 
 class UmmuPosts
 {

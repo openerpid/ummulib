@@ -1,12 +1,12 @@
 <?php
 
-namespace Dorbitt\Helpers;
+namespace Ummulib\Helpers;
 
 /**
  * =============================================
  * Author: Ummu
  * Website: https://ummukhairiyahyusna.com/
- * App: DORBITT LIB
+ * App: UMMU LIB
  * Description: 
  * =============================================
  */

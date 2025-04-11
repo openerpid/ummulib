@@ -1,6 +1,6 @@
 <?php
 
-namespace Dorbitt\Routes;
+namespace Ummulib\Routes;
 
 /**
 * =============================================
@@ -11,8 +11,8 @@ namespace Dorbitt\Routes;
 * =============================================
 */
 
-use Dorbitt\Curl;
-use Dorbitt\GlobalHelper;
+use Ummulib\Curl;
+use Ummulib\GlobalHelper;
 
 class UmmuHazardReportAchievement
 {

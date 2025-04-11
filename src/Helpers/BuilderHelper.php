@@ -1,6 +1,6 @@
 <?php
 
-namespace Dorbitt\Helpers;
+namespace Ummulib\Helpers;
 
 /**
 * =============================================
@@ -11,7 +11,7 @@ namespace Dorbitt\Helpers;
 * =============================================
 */
 
-use Dorbitt\GlobalHelper;
+use Ummulib\GlobalHelper;
 
 class BuilderHelper
 {
