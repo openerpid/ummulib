@@ -1,5 +1,5 @@
 {
-    "name": "ummulib",
+    "name": "ummu/lib",
     "type": "library",
     "description": "OPENERPID is a full-featured api creation and transfer class for PHP",
     "website": "https://openerp.id/",
