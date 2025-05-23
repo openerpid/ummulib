@@ -3562,6 +3562,21 @@ var $ummu = {
       // console.log("OK")
       },
     },
+
+    goods_evaluation: {
+      close_status: function() {
+        $("input[type=radio][name=status]").change(function () {
+          if (this.id == "close") {
+            $("#close_status_formGroup").removeClass("collapse");
+            $("#evidence_formGroup").removeClass("collapse");
+          } else {
+            $("#close_status_formGroup").addClass("collapse");
+            $("#evidence_formGroup").addClass("collapse");
+          }
+          console.log(this.id);
+        });
+      }
+    },
   },
 
   upload: {
